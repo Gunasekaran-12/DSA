@@ -1,0 +1,31 @@
+    Level 1: Graph Representation
+
+1.Create Adjacency Matrix
+2.Create Adjacency List
+3.Print all neighbours of a given node
+4.Count degree of each node
+5.Add edges for directed graph
+6.Add edges for undirected graph
+7.Weighted adjacency list
+
+    Level 2: BFS Practice
+
+1. BFS Traversal
+2. BFS from a Given Source
+3. BFS on Disconnected Graph
+4. Count Connected Components using BFS
+5. Shortest Path in an Unweighted Graph
+
+    Level 3: DFS Practice
+
+    DFS → Recursion
+    DFS → Stack
+
+1. DFS on Disconnected Graph
+2. Count Connected Components using DFS
+3. Check if Path Exists
+4. Number of Nodes in a Component
+5. Flood Fill ⭐
+6. Number of Provinces ⭐
+7. Number of Islands ⭐⭐⭐
+8. Max Area of Island ⭐⭐⭐
