@@ -18,8 +18,8 @@
 
     Level 3: DFS Practice
 
-    DFS → Recursion
-    DFS → Stack
+    -> DFS → Recursion
+    -> DFS → Stack
 
 1. DFS on Disconnected Graph
 2. Count Connected Components using DFS
