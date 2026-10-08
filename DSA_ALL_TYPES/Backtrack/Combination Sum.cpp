@@ -78,3 +78,51 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+// ANOTHER METHOD // ANOTHER METHOD // ANOTHER METHOD // ANOTHER METHOD
+
+
+
+
+
+class Solution {
+public:
+
+    void combination(vector<int>& candidates, int target, int index, vector<int>& current, vector<vector<int>>& ans){
+
+        if(target == 0){
+            ans.push_back(current);
+            return;
+        }
+
+        if(index == candidates.size())
+            return; 
+
+        if(candidates[index] <= target){
+            current.push_back(candidates[index]);
+
+            combination(candidates, target - candidates[index], index, current, ans);
+
+            current.pop_back();
+        }
+            combination(candidates, target, index + 1, current, ans);
+
+    }
+
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+
+        vector<int>current;
+        vector<vector<int>>ans;
+        int index = 0;
+            
+        combination(candidates,target,index,current,ans);
+        return ans;
+        
+    }
+};
+
+    
